@@ -158,16 +158,6 @@ def createSchedules(nrTeams, n, iteration):
     time = datetime.now()-start
     time = time.total_seconds()
 
-    #Used to save all violations in seperate file
-    totalViolations = [homeAwayMin, repeatMin, robinMin, total]
-    outF = open("/home/verduin/MasterProject/NewResults/MinViolationExperiment/" + str(iteration) + "/Violations" + str(nrTeams) +".txt", "w")
-    np.savetxt(outF, totalViolations, fmt='%i', delimiter=',')
-    outF.close()
-    
-    outF = open("/home/verduin/MasterProject/NewResults/MinViolationExperiment/" + str(iteration) + "/time" + str(nrTeams) +".txt", "w")
-    np.savetxt(outF, [time], delimiter=',')
-    outF.close()
-
 if int(sys.argv[1]) % 2 == 0:
     for i in range(0, 5):
         createSchedules(int(sys.argv[1]), 1000000, i)

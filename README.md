@@ -20,15 +20,15 @@ All the data related to the project can be found in the **Data** folder in the m
 
 The violations (`violations_.txt` and `violationsBest_.txt`) are stored in the format:
 
-[maxSteakViolatoins]
-[noRepeatViolations]
-[doubleRoundRobinViolatoins]
-[gamesAgainstSelf] (always 0, present from a previous method)
+[maxSteakViolatoins]\
+[noRepeatViolations]\
+[doubleRoundRobinViolatoins]\
+[gamesAgainstSelf] (always 0, present from a previous method)\
 [unmatchedPairings] (always 0, present from a previous method)
 
 PPA contains two additional data points:
 
-[numberOfEvaluations]
+[numberOfEvaluations]\
 [generations]
 
 ## Figures
@@ -36,6 +36,7 @@ PPA contains two additional data points:
 All figures (including figures not present in the thesis) can be found in the **Figures** folder in the main directory.
 
 Block1 contains the figures related to **block 1/chapter 3 - Random Schedule Generation**
+Block2 contains the figures related to **block 2/chapter 4 - Constraint Violation Reduction**
 
 ## Author
 

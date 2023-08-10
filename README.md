@@ -18,9 +18,11 @@ Run the scripts using `python [file].py [nr_teams]`
 
 All the data related to the project can be found in the **Data** folder in the main directory. 
 
-Each folder corresponds to its algorithm/method, while each folder within contains its respective number of teams (6 = 6 number of teams).
+Each folder corresponds to its algorithm/method, while each folder within contains the data for its respective number of teams (6 = 6 number of teams).
 
 The number behind each file within the folders signifies the run it originates from (_1.txt signifies it is from run 1).
+
+Each folder contains the original schedules, final (valid or invalid) schedules, the clock time, as well as the violations present at each function evaluation.
 
 The violations (`violations_.txt` and `violationsBest_.txt`) are stored in the format:
 

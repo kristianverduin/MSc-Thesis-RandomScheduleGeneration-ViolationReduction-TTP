@@ -29,8 +29,8 @@ The violations (`Violations_.txt` and `BestViolations_.txt`) are stored in the f
 [maxSteakViolatoins] \
 [noRepeatViolations]\
 [doubleRoundRobinViolatoins]\
-[gamesAgainstSelf] (always 0, present only in `Violations_.txt` from a previous method, can be ignored)\
-[unmatchedPairings] (always 0, present only in `Violations_.txt` from a previous method, can be ignored)
+[gamesAgainstSelf] (always 0, present only in (some) `Violations_.txt` from a previous method, can be ignored)\
+[unmatchedPairings] (always 0, present only in (some) `Violations_.txt` from a previous method, can be ignored)
 
 PPA contains two additional data points:
 

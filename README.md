@@ -14,6 +14,8 @@ The code related to my project can be found in the main directory.
 
 Run the scripts using `python [file].py [nr_teams]`
 
+`figures.py` contains all methods used for data exploration and analysis, as well as methods for creating the figures.
+
 ## Data
 
 All the data related to the project can be found in the **Data** folder in the main directory. 

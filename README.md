@@ -20,7 +20,7 @@ All the data related to the project can be found in the **Data** folder in the m
 
 The violations (`violations_.txt` and `violationsBest_.txt`) are stored in the format:
 
-[maxSteakViolatoins]\
+[maxSteakViolatoins] \
 [noRepeatViolations]\
 [doubleRoundRobinViolatoins]\
 [gamesAgainstSelf] (always 0, present from a previous method)\

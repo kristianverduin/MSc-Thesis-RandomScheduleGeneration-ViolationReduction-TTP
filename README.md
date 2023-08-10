@@ -24,13 +24,13 @@ The number behind each file within the folders signifies the run it originates f
 
 Each folder contains the original schedules, final (valid or invalid) schedules, the clock time, as well as the violations present at each function evaluation.
 
-The violations (`violations_.txt` and `violationsBest_.txt`) are stored in the format:
+The violations (`Violations_.txt` and `BestViolations_.txt`) are stored in the format:
 
 [maxSteakViolatoins] \
 [noRepeatViolations]\
 [doubleRoundRobinViolatoins]\
-[gamesAgainstSelf] (always 0, present from a previous method)\
-[unmatchedPairings] (always 0, present from a previous method)
+[gamesAgainstSelf] (always 0, present only in `Violations_.txt` from a previous method, can be ignored)\
+[unmatchedPairings] (always 0, present only in `Violations_.txt` from a previous method, can be ignored)
 
 PPA contains two additional data points:
 

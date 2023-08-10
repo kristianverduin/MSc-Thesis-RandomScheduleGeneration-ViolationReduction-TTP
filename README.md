@@ -36,6 +36,7 @@ PPA contains two additional data points:
 All figures (including figures not present in the thesis) can be found in the **Figures** folder in the main directory.
 
 Block1 contains the figures related to **block 1/chapter 3 - Random Schedule Generation**
+
 Block2 contains the figures related to **block 2/chapter 4 - Constraint Violation Reduction**
 
 ## Author

@@ -28,9 +28,9 @@ Each folder contains the original schedules, final (valid or invalid) schedules,
 
 The violations (`Violations_.txt` and `BestViolations_.txt`) are stored in the format:
 
-[maxSteakViolatoins] \
+[maxSteakViolations] \
 [noRepeatViolations]\
-[doubleRoundRobinViolatoins]\
+[doubleRoundRobinViolations]\
 [gamesAgainstSelf] (always 0, present only in (some) `Violations_.txt` from a previous method, can be ignored)\
 [unmatchedPairings] (always 0, present only in (some) `Violations_.txt` from a previous method, can be ignored)
 
